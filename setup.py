@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="distlog",
+    name="torchdistlog",
     version="0.0.0",
     author="Borui Zhang",
     author_email="zhang-br21@mails.tsinghua.edu.cn",
     description="Logging for distributed PyTorch training.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zbr17/distributed-logging",
+    url="https://github.com/zbr17/torchdistlog",
     project_urls={
-        "Docs": "https://github.com/zbr17/distributed-logging",
+        "Docs": "https://github.com/zbr17/torchdistlog",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
