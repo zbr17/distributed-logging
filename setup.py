@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="torchdistlog",
-    version="0.0.1",
+    version="0.0.2",
     author="Borui Zhang",
     author_email="zhang-br21@mails.tsinghua.edu.cn",
     description="Logging for distributed PyTorch training.",

@@ -8,6 +8,14 @@ class TqdmWithoutPrint:
     def __iter__(self):
         for item in iter(self.iterable):
             yield item
+    
+    def set_description(self, string, *args, **kwargs):
+        # do nothing
+        pass
+
+    def close(self):
+        # do nothing
+        pass
 
 def tqdm(iterable):
     if dist.is_initialized():
